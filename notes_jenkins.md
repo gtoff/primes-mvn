@@ -14,3 +14,6 @@ Follow instructions on getting admin account and pwd
  Maven used >300MB locally
 
 - setup my own project, pulled from git and used the configured maven to launch test goal
+
+- configure pushes to trigger builds
+see here: https://wiki.jenkins-ci.org/display/JENKINS/Github+Plugin
