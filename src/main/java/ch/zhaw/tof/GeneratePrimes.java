@@ -25,12 +25,12 @@ import java.util.*;
  * @author Robert C. Martin
  * @version %I%, %G%
  */
-public class GeneratePrimes
+public class GeneratePrimes implements PrimeGenerator
 {
   /**
    * @param maxValue is the generation limit.
    */
-  public static int[] generatePrimes(int maxValue)
+  public int[] generatePrimes(int maxValue)
   {
     if (maxValue >= 2) // the only valid case
     {
